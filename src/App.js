@@ -11,13 +11,15 @@ import ForceUpdate from './mycomponents/ForceUpdate'
 import NewDemo from './mycomponents/NewDemo'
 import NewDemo1 from './mycomponents/NewDemo1'
 import Form from './mycomponents/Form'
+import Form1 from './mycomponents/Form1'
+import Form2 from './mycomponents/Form2'
+import Signup from './mycomponents/Signup'
 
 
 function App() {
   return (
     <div className="App">
-      <NewDemo></NewDemo>
-      <Form></Form>
+      <Signup></Signup>
     </div>
   );
 }
